@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header,
+.footer {
+  height: 100px;
+  background: #FF69B4;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 60%;
+
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+
+  margin: 20px 0px;
+  position: relative;
+}
+
+.article {
+  position: relative;
+  background: #C71585;
+  border: 1px solid black;
+  width: calc(100% - 25px - 30%);
+  top: 0px;
+  left: 0px;
+  height: 100%;
+}
+
+.aside {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30%;
+  height: 100%;
+  background: #C71585;
+  border: 1px solid black;
+
+}
